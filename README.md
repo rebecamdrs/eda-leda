@@ -1,18 +1,8 @@
 # tst-leda
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge\&logo=java\&logoColor=white)
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow?style=for-the-badge)
-![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
-![UFCG](https://img.shields.io/badge/UFCG-Computa%C3%A7%C3%A3o-green?style=for-the-badge)
+Este repositório reúne implementações em Java desenvolvidas ao longo da disciplina de Estruturas de Dados e Algoritmos (LEDA) da UFCG. Os problemas abordam conceitos fundamentais de programação, com ênfase em manipulação de arrays, ordenação e construção de algoritmos eficientes.
 
-Este repositório contém implementações em Java de problemas clássicos envolvendo:
-
-* Manipulação de arrays
-* Algoritmos de ordenação
-* Recursão
-* Análise de complexidade
-
-As soluções foram desenvolvidas sem uso de funções prontas, com foco no entendimento dos algoritmos.
+As soluções são implementadas manualmente, sem uso de métodos prontos de ordenação ou estruturas auxiliares, priorizando o entendimento dos processos internos dos algoritmos e o desenvolvimento do raciocínio lógico.
 
 ## ⚙️ Execução
 
@@ -23,9 +13,19 @@ javac Solution.java
 java Solution
 ```
 
-## 🎯 Objetivo
+## 📂 Lista de questões
 
-* Praticar lógica de programação
-* Compreender algoritmos fundamentais
-* Implementar soluções sem dependência de bibliotecas
-* Desenvolver raciocínio analítico
+| Nome                                                                          | Solução                                                              |
+| ----------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| [3n-plus-one](./questoes/3n-plus-one/README.md)                               | [Solution.java](./questoes/3n-plus-one/Solucao.java)                 |
+| [down-n](./questoes/down-n/README.md)                                         | [Solution.java](./questoes/down-n/Solution.java)                     |
+| [encontra-primeiro-negativo](./questoes/encontra-primeiro-negativo/README.md) | [Solution.java](./questoes/encontra-primeiro-negativo/Solution.java) |
+| [frequencia-elemento](./questoes/frequencia-elemento/README.md)               | [Solution.java](./questoes/frequencia-elemento/Main.java)            |
+| [move-3](./questoes/move-3/README.md)                                         | [Solution.java](./questoes/move-3/Solution.java)                     |
+| [move-impostor](./questoes/move-impostor/README.md)                           | [Solution.java](./questoes/move-impostor/Solution.java)              |
+| [move-n](./questoes/move-n/README.md)                                         | [Solution.java](./questoes/move-n/Solution.java)                     |
+| [posicoes-elemento](./questoes/posicoes-elemento/README.md)                   | [Solution.java](./questoes/posicoes-elemento/Solution.java)          |
+| [top-n](./questoes/top-n/README.md)                                           | [Solution.java](./questoes/top-n/Solution.java)                      |
+| [troca-vizinhos](./questoes/troca-vizinhos/README.md)                         | [Solution.java](./questoes/troca-vizinhos/Solution.java)             |
+| [vetor-circular](./questoes/vetor-circular/README.md)                         | [Solution.java](./questoes/vetor-circular/Solution.java)             |
+
