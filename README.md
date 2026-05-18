@@ -17,20 +17,22 @@ java Solution
 
 ## 📂 Lista de questões
 
-| [3n-plus-one](./questoes/3n-plus-one/README.md)                                   |
-| [down-n](./questoes/down-n/README.md)                                             |
-| [encontra-primeiro-negativo](./questoes/encontra-primeiro-negativo/README.md)     |
-| [frequencia-elemento](./questoes/frequencia-elemento/README.md)                   |
-| [insere-primeiro](./questoes/insere-primeiro/README.md)                           |
-| [insere-ultimo](./questoes/insere-ultimo/README.md)                               |
-| [insertion-sort-recursivo](./questoes/insertion-sort-recursivo/README.md)         |
-| [mariana-e-os-livros](./questoes/mariana-e-os-livros/README.md)                   |
-| [move-3](./questoes/move-3/README.md)                                             |
-| [move-impostor](./questoes/move-impostor/README.md)                               |
-| [move-n](./questoes/move-n/README.md)                                             |
-| [posicoes-elemento](./questoes/posicoes-elemento/README.md)                       |
-| [selection-sort-passo-a-passo](./questoes/selection-sort-passo-a-passo/README.md) |
-| [selection-sort-recursivo](./questoes/selection-sort-recursivo/README.md)         |
-| [top-n](./questoes/top-n/README.md)                                               |
-| [troca-vizinhos](./questoes/troca-vizinhos/README.md)                             |
-| [vetor-circular](./questoes/vetor-circular/README.md)                             |
+| Questão | Descrição |
+| --- | --- |
+| [3n-plus-one](./questoes/3n-plus-one/README.md) | Sequência de Collatz |
+| [down-n](./questoes/down-n/README.md) | Impressão regressiva |
+| [encontra-primeiro-negativo](./questoes/encontra-primeiro-negativo/README.md) | Busca recursiva |
+| [frequencia-elemento](./questoes/frequencia-elemento/README.md) | Frequência em arrays |
+| [insere-primeiro](./questoes/insere-primeiro/README.md) | Inserção no início |
+| [insere-ultimo](./questoes/insere-ultimo/README.md) | Inserção no fim |
+| [insertion-sort-recursivo](./questoes/insertion-sort-recursivo/README.md) | Ordenação recursiva |
+| [mariana-e-os-livros](./questoes/mariana-e-os-livros/README.md) | Manipulação de coleções |
+| [move-3](./questoes/move-3/README.md) | Movimentação em vetor |
+| [move-impostor](./questoes/move-impostor/README.md) | Reorganização de elementos |
+| [move-n](./questoes/move-n/README.md) | Deslocamento em arrays |
+| [posicoes-elemento](./questoes/posicoes-elemento/README.md) | Busca de posições |
+| [selection-sort-passo-a-passo](./questoes/selection-sort-passo-a-passo/README.md) | Ordenação detalhada |
+| [selection-sort-recursivo](./questoes/selection-sort-recursivo/README.md) | Selection Sort recursivo |
+| [top-n](./questoes/top-n/README.md) | Maiores elementos |
+| [troca-vizinhos](./questoes/troca-vizinhos/README.md) | Troca de elementos adjacentes |
+| [vetor-circular](./questoes/vetor-circular/README.md) | Estrutura circular |
