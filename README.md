@@ -20,6 +20,8 @@ java Solution
 | Questão | Descrição |
 | --- | --- |
 | [3n-plus-one](./questoes/3n-plus-one/README.md) | Sequência de Collatz |
+| [countingsort-negativos](./questoes/countingsort-negativos/README.md) | Ordenação linear |
+| [countingsort-passo-a-passo](./questoes/countingsort-passo-a-passo/README.md) | Ordenação linear |
 | [down-n](./questoes/down-n/README.md) | Impressão regressiva |
 | [encontra-primeiro-negativo](./questoes/encontra-primeiro-negativo/README.md) | Busca recursiva |
 | [estatistica-ordem](./questoes/estatistica-ordem/README.md) | Estatística de ordem |
