@@ -27,10 +27,12 @@ java Solution
 | [insere-ultimo](./questoes/insere-ultimo/README.md) | Inserção no fim |
 | [insertion-sort-recursivo](./questoes/insertion-sort-recursivo/README.md) | Ordenação recursiva |
 | [mariana-e-os-livros](./questoes/mariana-e-os-livros/README.md) | Manipulação de coleções |
+| [mergesort-passo-a-passo](./questoes/mergesort-passo-a-passo/README.md) | Algoritmo de Ordenação n logn |
 | [move-3](./questoes/move-3/README.md) | Movimentação em vetor |
 | [move-impostor](./questoes/move-impostor/README.md) | Reorganização de elementos |
 | [move-n](./questoes/move-n/README.md) | Deslocamento em arrays |
 | [posicoes-elemento](./questoes/posicoes-elemento/README.md) | Busca de posições |
+| [quicksort-passo-a-passo](./questoes/quicksort-passo-a-passo/README.md) | Algoritmo de Ordenação n logn |
 | [selection-sort-passo-a-passo](./questoes/selection-sort-passo-a-passo/README.md) | Ordenação detalhada |
 | [selection-sort-recursivo](./questoes/selection-sort-recursivo/README.md) | Selection Sort recursivo |
 | [top-n](./questoes/top-n/README.md) | Maiores elementos |
