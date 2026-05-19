@@ -22,15 +22,18 @@ java Solution
 | [3n-plus-one](./questoes/3n-plus-one/README.md) | Sequência de Collatz |
 | [down-n](./questoes/down-n/README.md) | Impressão regressiva |
 | [encontra-primeiro-negativo](./questoes/encontra-primeiro-negativo/README.md) | Busca recursiva |
+| [estatistica-ordem](./questoes/estatistica-ordem/README.md) | Estatística de ordem |
 | [frequencia-elemento](./questoes/frequencia-elemento/README.md) | Frequência em arrays |
 | [insere-primeiro](./questoes/insere-primeiro/README.md) | Inserção no início |
 | [insere-ultimo](./questoes/insere-ultimo/README.md) | Inserção no fim |
 | [insertion-sort-recursivo](./questoes/insertion-sort-recursivo/README.md) | Ordenação recursiva |
 | [mariana-e-os-livros](./questoes/mariana-e-os-livros/README.md) | Manipulação de coleções |
+| [melhor-pivot](./questoes/melhor-pivot/README.md) | Escolha do melhor pivô |
 | [mergesort-passo-a-passo](./questoes/mergesort-passo-a-passo/README.md) | Algoritmo de Ordenação n logn |
 | [move-3](./questoes/move-3/README.md) | Movimentação em vetor |
 | [move-impostor](./questoes/move-impostor/README.md) | Reorganização de elementos |
 | [move-n](./questoes/move-n/README.md) | Deslocamento em arrays |
+| [particionamento-lomuto](./questoes/particionamento-lomuto/README.md) | Particionamento de Lomuto |
 | [posicoes-elemento](./questoes/posicoes-elemento/README.md) | Busca de posições |
 | [quicksort-passo-a-passo](./questoes/quicksort-passo-a-passo/README.md) | Algoritmo de Ordenação n logn |
 | [selection-sort-passo-a-passo](./questoes/selection-sort-passo-a-passo/README.md) | Ordenação detalhada |
