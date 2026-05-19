@@ -24,10 +24,11 @@ class Solution {
     private static String formatador(String[] seq) {
         String out = "";
         for (int i = 0; i < seq.length; i++) {
-            if (seq[i].equals()) 
-            out += livro + ", ";
-
+            out += seq[i];
+            if (i < seq.length - 1) {
+                out += ", ";
+            }
         }
-        return out.trim();
+        return out;
     }
 }

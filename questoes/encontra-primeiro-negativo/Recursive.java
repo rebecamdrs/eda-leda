@@ -25,6 +25,6 @@ class Solution {
         }
 
         // chamada recursiva
-        return primeiroNegativo(v, i + 1);
+        return encontraPrimeiroNegativo(v, i + 1);
     }
 }
