@@ -17,29 +17,32 @@ java Solution
 
 ## 📂 Lista de questões
 
-| Questão | Descrição |
-| --- | --- |
-| [3n-plus-one](./questoes/3n-plus-one/README.md) | Sequência de Collatz |
-| [countingsort-negativos](./questoes/countingsort-negativos/README.md) | Ordenação linear |
-| [countingsort-passo-a-passo](./questoes/countingsort-passo-a-passo/README.md) | Ordenação linear |
-| [down-n](./questoes/down-n/README.md) | Impressão regressiva |
-| [encontra-primeiro-negativo](./questoes/encontra-primeiro-negativo/README.md) | Busca recursiva |
-| [estatistica-ordem](./questoes/estatistica-ordem/README.md) | Estatística de ordem |
-| [frequencia-elemento](./questoes/frequencia-elemento/README.md) | Frequência em arrays |
-| [insere-primeiro](./questoes/insere-primeiro/README.md) | Inserção no início |
-| [insere-ultimo](./questoes/insere-ultimo/README.md) | Inserção no fim |
-| [insertion-sort-recursivo](./questoes/insertion-sort-recursivo/README.md) | Ordenação recursiva |
-| [mariana-e-os-livros](./questoes/mariana-e-os-livros/README.md) | Manipulação de coleções |
-| [melhor-pivot](./questoes/melhor-pivot/README.md) | Escolha do melhor pivô |
-| [mergesort-passo-a-passo](./questoes/mergesort-passo-a-passo/README.md) | Algoritmo de Ordenação n logn |
-| [move-3](./questoes/move-3/README.md) | Movimentação em vetor |
-| [move-impostor](./questoes/move-impostor/README.md) | Reorganização de elementos |
-| [move-n](./questoes/move-n/README.md) | Deslocamento em arrays |
-| [particionamento-lomuto](./questoes/particionamento-lomuto/README.md) | Particionamento de Lomuto |
-| [posicoes-elemento](./questoes/posicoes-elemento/README.md) | Busca de posições |
-| [quicksort-passo-a-passo](./questoes/quicksort-passo-a-passo/README.md) | Algoritmo de Ordenação n logn |
-| [selection-sort-passo-a-passo](./questoes/selection-sort-passo-a-passo/README.md) | Ordenação detalhada |
-| [selection-sort-recursivo](./questoes/selection-sort-recursivo/README.md) | Selection Sort recursivo |
-| [top-n](./questoes/top-n/README.md) | Maiores elementos |
-| [troca-vizinhos](./questoes/troca-vizinhos/README.md) | Troca de elementos adjacentes |
-| [vetor-circular](./questoes/vetor-circular/README.md) | Estrutura circular |
+| Questão                                                                                                                             | Descrição                      |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
+| [3n-plus-one](./questoes/3n-plus-one/README.md)                                                                                     | Sequência de Collatz           |
+| [countingsort-negativos](./questoes/countingsort-negativos/README.md)                                                               | Ordenação linear               |
+| [countingsort-passo-a-passo](./questoes/countingsort-passo-a-passo/README.md)                                                       | Ordenação linear               |
+| [down-n](./questoes/down-n/README.md)                                                                                               | Impressão regressiva           |
+| [encontra-primeiro-negativo](./questoes/encontra-primeiro-negativo/README.md)                                                       | Busca recursiva                |
+| [estatistica-ordem](./questoes/estatistica-ordem/README.md)                                                                         | Estatística de ordem           |
+| [frequencia-elemento](./questoes/frequencia-elemento/README.md)                                                                     | Frequência em arrays           |
+| [insere-primeiro](./questoes/insere-primeiro/README.md)                                                                             | Inserção no início             |
+| [insere-ultimo](./questoes/insere-ultimo/README.md)                                                                                 | Inserção no fim                |
+| [insertion-sort-recursivo](./questoes/insertion-sort-recursivo/README.md)                                                           | Ordenação recursiva            |
+| [mariana-e-os-livros](./questoes/mariana-e-os-livros/README.md)                                                                     | Manipulação de coleções        |
+| [melhor-pivot](./questoes/melhor-pivot/README.md)                                                                                   | Escolha do melhor pivô         |
+| [mergesort-passo-a-passo](./questoes/mergesort-passo-a-passo/README.md)                                                             | Algoritmo de Ordenação n logn  |
+| [move-3](./questoes/move-3/README.md)                                                                                               | Movimentação em vetor          |
+| [move-impostor](./questoes/move-impostor/README.md)                                                                                 | Reorganização de elementos     |
+| [move-n](./questoes/move-n/README.md)                                                                                               | Deslocamento em arrays         |
+| [particionamento-lomuto-utilizando-o-primeiro-elemento](./questoes/particionamento-lomuto-utilizando-o-primeiro-elemento/README.md) | Particionamento de Lomuto      |
+| [posicoes-elemento](./questoes/posicoes-elemento/README.md)                                                                         | Busca de posições              |
+| [quicksort-passo-a-passo](./questoes/quicksort-passo-a-passo/README.md)                                                             | Algoritmo de Ordenação n logn  |
+| [radix-sort](./questoes/radix-sort/README.md)                                                                                       | Ordenação por dígitos          |
+| [radix-sort-dois-digitos](./questoes/radix-sort-dois-digitos/README.md)                                                             | Radix Sort em pares de dígitos |
+| [radix-sort-tres-digitos](./questoes/radix-sort-tres-digitos/README.md)                                                             | Radix Sort em trios de dígitos |
+| [selection-sort-passo-a-passo](./questoes/selection-sort-passo-a-passo/README.md)                                                   | Ordenação detalhada            |
+| [selection-sort-recursivo](./questoes/selection-sort-recursivo/README.md)                                                           | Selection Sort recursivo       |
+| [top-n](./questoes/top-n/README.md)                                                                                                 | Maiores elementos              |
+| [troca-vizinhos](./questoes/troca-vizinhos/README.md)                                                                               | Troca de elementos adjacentes  |
+| [vetor-circular](./questoes/vetor-circular/README.md)                                                                               | Estrutura circular             |
