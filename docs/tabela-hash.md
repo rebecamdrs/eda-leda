@@ -80,7 +80,7 @@ Ao invés de armazenarmos um objeto em uma posição da tabela, passamos a armaz
 
 ### Método da Divisão (Uso de Números Primos)
 Uma excelente estratégia para evitar colisões é definir o tamanho da tabela como um número primo. A função fica definida como:
-$hash(chave) = chave \ \% \ m$ (onde $m$ é um número primo).
+$$hash(chave) = chave \\% m$$ (onde $m$ é um número primo).
 
 *Exemplo prático:* Mudar o tamanho de uma tabela de 100 para 101 reduziu as colisões de 60 para zero em um mesmo conjunto de dados.
 
@@ -88,7 +88,7 @@ $hash(chave) = chave \ \% \ m$ (onde $m$ é um número primo).
 
 É uma estratégia alternativa que utiliza uma constante decimal ($A$) e o tamanho da tabela ($m$). A fórmula matemática da função é definida por:
 
-$$hash(chave) = int(((chave \times A) \ \% \ 1) \times m)$$
+$$hash(chave) = int(((chave \times A)\\% 1)\times m)$$
 
 
  **Passos do Método da Multiplicação:**
