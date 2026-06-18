@@ -6,15 +6,6 @@ As soluções são implementadas manualmente, sem uso de métodos prontos de ord
 
 **📎** https://www.notion.so/eda-leda-356cd6f691e180e0b216d0ac9c84d6fb?source=copy_link
 
-## ⚙️ Execução
-
-Para compilar e executar qualquer problema:
-
-```bash
-javac Solution.java
-java Solution
-```
-
 ## 📂 Lista de questões
 
 | Pasta | Conteúdo |
