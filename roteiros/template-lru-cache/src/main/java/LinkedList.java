@@ -1,5 +1,4 @@
-package linkedlist;
-import java.util.NoSuchElementException;
+import java.util.*;
 
 public class LinkedList {
 
@@ -17,7 +16,7 @@ public class LinkedList {
         return this.head == null;
     }
 
-    public void addFirst(int valor) {
+    public void addFirst(String valor) {
         Node newNode = new Node(valor);
         
         if (isEmpty()) {
@@ -32,7 +31,7 @@ public class LinkedList {
         size += 1;
     }
 
-    public void addLast(int valor) {
+    public void addLast(String valor) {
         Node newNode = new Node(valor);
         
         if(isEmpty()) {
@@ -47,7 +46,7 @@ public class LinkedList {
     }
 
     // adiciona um valor na posição passada como parâmetro
-    public void add(int index, int valor) {
+    public void add(int index, String valor) {
         if (index < 0 || index > size)
             throw new IndexOutOfBoundsException();
         
@@ -74,19 +73,19 @@ public class LinkedList {
         }
     }
 
-    public int getFirst() {
+    public String getFirst() {
         if (isEmpty()) throw new NoSuchElementException();
         return this.head.value;
     }
 
-    public int getLast() {
+    public String getLast() {
         if (isEmpty()) throw new NoSuchElementException();
         return this.tail.value;
     }
 
     // retorna o elemento na posição  passada como parâmetro
     // deve lançar IndexOutOfBoundsException se o índice não for válido.
-    public int get(int index) {
+    public String get(int index) {
          if (index < 0 || index >= size)
             throw new IndexOutOfBoundsException();
         
@@ -98,11 +97,20 @@ public class LinkedList {
         return aux.value;
     }
 
+    public Node get(String value) {
+        Node aux = this.head;
+        while (aux != null) {
+            if (aux.value.equals(value)) return aux;
+            aux = aux.next;
+        }
+        return null;
+    }
+
     // deve lançar exceção caso a fila esteja vazia.
-    public int removeFirst() {
+    public String removeFirst() {
         if (isEmpty()) throw new NoSuchElementException();
         
-        int v = this.head.value;
+        String v = this.head.value;
         
         if (this.head.next == null) {
             this.head = null;
@@ -117,10 +125,10 @@ public class LinkedList {
     }
 
     // deve lançar exceção caso a fila esteja vazia.
-    public int removeLast() {
+    public String removeLast() {
         if (isEmpty()) throw new NoSuchElementException();
         
-        int v = this.tail.value;
+        String v = this.tail.value;
         
         if (this.head.next == null) {
             this.head = null;
@@ -136,7 +144,7 @@ public class LinkedList {
 
     // remove o valor no índice passado como parâmetro. retorna o valor removido.
     // lançar exceção se o índice não for válido.
-    public int remove(int index) {
+    public String remove(int index) {
          if (index < 0 || index >= size)
             throw new IndexOutOfBoundsException();
         
@@ -158,7 +166,7 @@ public class LinkedList {
     public boolean removeByValue(int value) {
         Node aux = this.head;
         for (int i = 0; i < this.size; i++) {
-            if (aux.value == value) {
+            if (aux.value.equals(value)) {
                 if (i == 0) removeFirst();
                 else if (i == size - 1) removeLast();
                 else {
@@ -180,8 +188,7 @@ public class LinkedList {
         Node aux = this.head;
         int index = 0;
         while (aux != null) { 
-            if(aux.value == value)
-                return index;
+            if(aux.value.equals(value)) return index;
             aux = aux.next;
             index += 1;
         }
@@ -202,7 +209,7 @@ public class LinkedList {
         int i = -1;
         while (aux != null) {
             i += 1;
-            if (aux.value == valor)
+            if (aux.value.equals(valor))
                 last = i;
             aux = aux.next;
         }
@@ -257,11 +264,11 @@ public class LinkedList {
 
 class Node {
 
-    int value;
+    String value;
     Node prev;
     Node next;
 
-    Node(int v) {
+    Node(String v) {
         this.value = v;
     }
 

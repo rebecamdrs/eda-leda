@@ -28,8 +28,8 @@ public class FIFOEvictionStrategy {
     		String elemento = cache.removeFirst();
     		aux.remove(elemento);
     	}
-    	cache.addLast(chave);
-    	aux.add(chave);
+    	cache.addLast(valor);
+    	aux.add(valor);
 	}
 
     /*

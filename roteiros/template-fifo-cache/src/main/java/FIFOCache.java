@@ -24,7 +24,7 @@ public class FIFOCache {
         return this.size >= this.fila.length;
     }
 
-    // deve sobrescerver o mais antigo caso a fila esteja cheia.
+    /* deve sobrescerver o mais antigo caso a fila esteja cheia. */
     public void addLast(String chave) {
         if (isFull()) {
             this.head = (this.head + 1) % this.fila.length;
