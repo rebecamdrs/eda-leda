@@ -1,6 +1,6 @@
 # eda-leda
 
-[![Java Version](https://img.shields.io/badge/Java-11%2B-orange?style=flat-square&logo=java)](https://www.oracle.com/java/)
+[![Java Version](https://img.shields.io/badge/Java-11%2B-magenta?style=flat-square&logo=java)](https://www.oracle.com/java/)
 [![Course](https://img.shields.io/badge/Disciplina-LEDA-blue?style=flat-square)](https://www.ufcg.edu.br/)
 
 Este repositório reúne as implementações e resoluções de problemas desenvolvidas ao longo da disciplina de **Laboratório de Estrutura de Dados e Algoritmos (LEDA)** da Universidade Federal de Campina Grande (UFCG).
@@ -29,8 +29,6 @@ O repositório está estruturado em três grandes pilares de desenvolvimento:
 | `ordenacao-linear` | Algoritmos de ordenação baseados em chaves com complexidade ${O}(n)$ *(Counting Sort, Radix Sort)*. |
 | `estruturas-lineares` | Implementações de Pilhas, Filas e Listas Encadeadas. |
 | `arvores` | Resolução de problemas e conceitos sobre Árvores Binárias de Busca (BST) e Heaps. || `arvores` | Resolução de problemas e conceitos sobre Árvores Binárias de Busca (BST) e Heaps. |
-
----
 
 <div align="center">
   <sub>Disciplina de LEDA @ UFCG. Desenvolvido para fins acadêmicos e de aprendizado.</sub>
